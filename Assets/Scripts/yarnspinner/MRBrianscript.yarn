@@ -1,6 +1,7 @@
 ﻿title: MRBrianscript
 tags:
 ---
+<<SetFrontalLobe YarnCommands_Scripts>>
 Welcome to the interactive brain exploration! #line:030d5ea 
 
 You can use your hands to reach out and touch the brain in front of you.   #line:0ec0b77 
@@ -53,6 +54,8 @@ Ready for the tour? #line:0f8cdf2
 title: FrontalLobe
 tags:
 ---
+<<SetFrontalLobe YarnCommands_Scripts>>
+
 Let's begin with the frontal lobe! It's the boss of decision-making, planning, and controlling voluntry movements. Its also where your personality lives.  #line:04a357a 
 It also controls your voluntary movements through an area called the motor cortex.   #line:0cc0e23 
 When you speak, you can thank a special part here called Broca’s area for helping you form words.   #line:0f54db3 
@@ -65,6 +68,8 @@ Fun Fact , damage to this can completely change how a person acts or reacts to t
 title: ParietalLobe
 tags:
 ---
+
+
 The "parietal lobe" is like your brain's touch and taste center. It is like your your brain's GPS, helping you understand where your body is in space and how to move it. #line:0bdb34d 
 It processes touch sensations, like feeling a soft blanket or the warmth of the sun on your skin.  #line:0d07134 
 It also helps you understand where your body is in space, so you can touch your nose with your eyes closed or catch a ball without looking.  #line:0e71c25 
