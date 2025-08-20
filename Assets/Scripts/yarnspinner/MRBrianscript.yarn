@@ -54,7 +54,7 @@ Ready for the tour? #line:0f8cdf2
 title: FrontalLobe
 tags:
 ---
-<<SetFrontalLobe YarnCommands_Scripts>>
+<<SetFrontalLobe Scriptsholder>>
 
 Let's begin with the frontal lobe! It's the boss of decision-making, planning, and controlling voluntry movements. Its also where your personality lives.  #line:04a357a 
 It also controls your voluntary movements through an area called the motor cortex.   #line:0cc0e23 
@@ -69,7 +69,7 @@ title: ParietalLobe
 tags:
 ---
 
-
+<<PeritalLobe Scriptsholder>>
 The "parietal lobe" is like your brain's touch and taste center. It is like your your brain's GPS, helping you understand where your body is in space and how to move it. #line:0bdb34d 
 It processes touch sensations, like feeling a soft blanket or the warmth of the sun on your skin.  #line:0d07134 
 It also helps you understand where your body is in space, so you can touch your nose with your eyes closed or catch a ball without looking.  #line:0e71c25 
@@ -81,6 +81,8 @@ Lets keeps going to the next lobe! #line:0f30b18
 title: temporallobe
 tags:
 ---
+
+<<TemporalLobe Scriptsholder>>
 The "temporal lobe" is like your brain's music and memory center. It helps your understand language an remember stuff. #line:0478305 
 It's also where you recognize faces and understand what people are saying. #line:075827f 
 
@@ -89,6 +91,8 @@ It's also where you recognize faces and understand what people are saying. #line
 title: occipitallobe
 tags:
 ---
+
+<<OccipitalLobe Scriptsholder>>
 The "occipital lobe" is like your brain's movie screen. It processes everything you see, from colors to shapes to movement. #line:05ad95d 
 When you look at a beautiful sunset or read a book, it’s the occipital lobe that makes sense of those images. #line:0d5e799 
 
@@ -99,6 +103,7 @@ It’s also where your brain puts together all the visual information it gets fr
 title: prefrontal
 tags:
 ---
+<<PrefrontalLobe Scriptsholder>>
 Next, let's zoom in on the very front tip of the frontal lobe.  #line:0f06808 
 
 Think of it as the CEO's desk inside the brian's head office. This is where the big, complex thinking happens. #line:06b7d25 
@@ -122,6 +127,7 @@ Lets start with Cerebellum. #line:0a212de
 title: cerebellum
 tags:
 ---
+<<Cerebellum Scriptsholder>>
 The cerebellum is like the brain's balance and coordination center. It helps you keep your balance when you walk, ride a bike, or dance. #line:03807f8 
 It’s also responsible for fine motor skills, like writing or playing an instrument. When you learn a new skill, like riding a bike, the cerebellum helps you practice until it becomes second nature. #line:0be89c7 
 Without it, walking or even holding a cup steady would be tough! #line:0773ac5 
@@ -133,6 +139,7 @@ Lets move on to the next part, the brainstem. #line:08905e7
 title: brainstem
 tags:
 ---
+<<BrainStem Scriptsholder>>
 Now, look at the brainstem — that stalk-like structure right at the center bottom, under the brain. #line:0012915 
 
 It’s the vital connection between your brain and spinal cord, managing life-essential functions like breathing and heartbeat. It’s a true life-support hub. #line:0e13ba8 
@@ -145,6 +152,8 @@ lets jump over to the thalamus. #line:0c3affc
 title: thalamus
 tags:
 ---
+
+<<Thalamus Scriptsholder>>
 Here’s the thalamus and the surrounding midbrain structures, the central bulge just above the brainstem. #line:001bed5 
 
 Think of it as the brain’s relay station — it channels sensory information to the cerebral cortex so you can make sense of the world. It’s like a traffic cop, directing signals from your senses to the right parts of the brain. #line:06c7b76 
