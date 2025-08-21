@@ -20,14 +20,10 @@ To get the full experience, follow along with the audio guide.   #line:04f78f3
 
 It will walk you through each lobe’s function, from decision-making to vision and beyond. #line:02d052b 
 
-Ready to start exploring?   #line:0e0ce56 
--> Yes, let’s begin! #line:0816349 
-    Great! Lets start with your first lobe  #line:0d23009 
-    <<jump begin>>
--> Not yet, I need to hear that again. #line:0101e0f 
-    No problem — let’s go over it once more. #line:05f868f 
-    <<jump MRBrianscript>>
+Once you've explored a part, make a thumbs up gesture to let me know you’re ready to move on.   #line:0f8cdf1   //need to add audio
 
+//
+<<jump begin>>
 ===
 title:begin
 tags:
@@ -42,18 +38,21 @@ It’s like the ultimate control center, made of billions of nerve cells that ta
 
 Today, we’re going to explore the brain’s five major lobes — each with its own special powers. #line:0d0705c 
 By the end, you’ll know which part helps you make decisions, which lets you see the world, and which secretly processes your sense of taste. #line:074c391 
+//
 
-Ready for the tour? #line:0f8cdf2 
--> Yes, let’s go! #line:0df7d94 
-    <<jump FrontalLobe>>
--> Maybe later. #line:0a3a993 
-    No problem! We can explore anytime. #line:055f32f 
-    <<stop>>
+If you’re ready, let’s dive in! #line:0d5e79b // need to add audio
 
+Show a thumbs up gesture to continue. #line:0f8cdf2  //need to add audio
+
+<<jump FrontalLobe>>
+
+<<waite 3>>
 ===
 title: FrontalLobe
 tags:
 ---
+
+
 <<SetFrontalLobe Scriptsholder>>
 
 Let's begin with the frontal lobe! It's the boss of decision-making, planning, and controlling voluntry movements. Its also where your personality lives.  #line:04a357a 
@@ -64,6 +63,8 @@ And, perhaps most importantly, the frontal lobe plays a big role in shaping your
 Fun Fact , damage to this can completely change how a person acts or reacts to things. #line:06a3455 
 
 <<jump ParietalLobe>>
+
+<<waite 3>>
 ===
 title: ParietalLobe
 tags:
@@ -77,6 +78,7 @@ It also helps you understand where your body is in space, so you can touch your 
 Lets keeps going to the next lobe! #line:0f30b18 
 
 <<jump temporallobe>>
+<<waite 3>>
 ===
 title: temporallobe
 tags:
@@ -87,6 +89,7 @@ The "temporal lobe" is like your brain's music and memory center. It helps your 
 It's also where you recognize faces and understand what people are saying. #line:075827f 
 
 <<jump occipitallobe >>
+<<waite 3>>
 ===
 title: occipitallobe
 tags:
@@ -99,6 +102,7 @@ When you look at a beautiful sunset or read a book, it’s the occipital lobe th
 It’s also where your brain puts together all the visual information it gets from your eyes, so you can see the world clearly. #line:0274d95 
 
 <<jump prefrontal>>
+<<waite 3>>
 ===
 title: prefrontal
 tags:
@@ -113,6 +117,7 @@ It even shapes your social behavior and personality, guiding how you interact wi
 
 Fun fact, this part of the brian isnt fully development until your mid twenties, which is why teenagers sometimes make impulsive decisions. #line:0432e92 
 <<jump internal >>
+<<waite 3>>
 ===
 title: internal
 tags:   
@@ -123,6 +128,7 @@ If you have still not seperated the lobes, pinch over them and seperate it. Real
 Once you’ve opened up the brain, press the buttons to discover each part. #line:0eb4d97 
 Lets start with Cerebellum. #line:0a212de 
 <<jump cerebellum>>
+<<waite 3>>
 ===
 title: cerebellum
 tags:
@@ -135,6 +141,7 @@ Without it, walking or even holding a cup steady would be tough! #line:0773ac5
 Lets move on to the next part, the brainstem. #line:08905e7 
 
 <<jump brainstem>>
+<<waite 3>>
 ===
 title: brainstem
 tags:
@@ -148,6 +155,7 @@ It’s also responsible for basic reflexes, like blinking when something comes c
 
 lets jump over to the thalamus. #line:0c3affc 
 <<jump thalamus>>
+<<waite 3>>
 ===
 title: thalamus
 tags:
