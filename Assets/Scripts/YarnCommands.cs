@@ -9,7 +9,8 @@ public class YarnCommands : MonoBehaviour
     public DialogueRunner dialogueRunner;
 
     public GameObject FrontalLobe, PeritalLobe, OccipitalLobe, PrefrontalLobe, TemporalLobe, BrainStem, Cerebellum, Thalamus; // GameObjects to be activated or deactivated
-    public YarnCommands yarnCommands; // Reference to the YarnCommands script
+    
+    //public YarnCommands yarnCommands; // Reference to the YarnCommands script
 
 
 
