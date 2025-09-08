@@ -4629,12 +4629,60 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8115664356605463774, guid: 33a04a0ec0c65d449ba4c58c1e876f9d, type: 3}
+      propertyPath: Thalamus
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 8115664356605463774, guid: 33a04a0ec0c65d449ba4c58c1e876f9d, type: 3}
+      propertyPath: BrainStem
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 8115664356605463774, guid: 33a04a0ec0c65d449ba4c58c1e876f9d, type: 3}
+      propertyPath: Cerebellum
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 8115664356605463774, guid: 33a04a0ec0c65d449ba4c58c1e876f9d, type: 3}
+      propertyPath: PeritalLobe
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 8115664356605463774, guid: 33a04a0ec0c65d449ba4c58c1e876f9d, type: 3}
+      propertyPath: TemporalLobe
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 8115664356605463774, guid: 33a04a0ec0c65d449ba4c58c1e876f9d, type: 3}
+      propertyPath: OccipitalLobe
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 8115664356605463774, guid: 33a04a0ec0c65d449ba4c58c1e876f9d, type: 3}
+      propertyPath: PrefrontalLobe
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 8115664356605463774, guid: 33a04a0ec0c65d449ba4c58c1e876f9d, type: 3}
       propertyPath: dialogueRunner
       value: 
       objectReference: {fileID: 44196484}
     - target: {fileID: 8115664356605463774, guid: 33a04a0ec0c65d449ba4c58c1e876f9d, type: 3}
+      propertyPath: left_brain_highlight
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 8115664356605463774, guid: 33a04a0ec0c65d449ba4c58c1e876f9d, type: 3}
+      propertyPath: right_brain_highlight
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 8115664356605463774, guid: 33a04a0ec0c65d449ba4c58c1e876f9d, type: 3}
+      propertyPath: Left_side_body_highlight
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 8115664356605463774, guid: 33a04a0ec0c65d449ba4c58c1e876f9d, type: 3}
+      propertyPath: Right_side_body_highlight
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 8115664356605463774, guid: 33a04a0ec0c65d449ba4c58c1e876f9d, type: 3}
+      propertyPath: highlightObject.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8115664356605463774, guid: 33a04a0ec0c65d449ba4c58c1e876f9d, type: 3}
       propertyPath: uiButtonsForBrain.Array.size
-      value: 7
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
