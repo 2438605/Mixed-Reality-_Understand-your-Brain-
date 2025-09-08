@@ -17,6 +17,18 @@ TagManager:
   - QDSUIIcon
   - QDSUITextSecondaryColor
   - QDSUISection
+  - QDSUIToggleCheckboxRadio
+  - peritallobe
+  - Undefined
+  - temporallobe
+  - frontallobe
+  - occipitallobe
+  - perital lobe
+  - frontal lobe
+  - decision
+  - Sensation
+  - Hearing
+  - Vision
   layers:
   - Default
   - TransparentFX
