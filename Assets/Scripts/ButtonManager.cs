@@ -3,46 +3,29 @@ using UnityEngine.UI;
 
 public class ButtonManager : MonoBehaviour
 {
-    // Array of buttons
-    public Button[] buttons;
-    // Corresponding labels (e.g., Text or GameObjects to show/hide)
-    public GameObject[] labels;
-
-    // Index of the currently active button (-1 means none)
-    private int activeIndex = -1;
+    public Button[] buttons;   // Assign 6 buttons in the Inspector
+    public int correctIndex;   // Set this in Inspector to choose the correct button manually
 
     void Start()
     {
-        // Add listeners to buttons
-        for (int i = 0; i < buttons.Length; i++)
+        // Assign click events to each button
+        foreach (Button btn in buttons)
         {
-            int index = i;  // Capture index for the closure
-            buttons[i].onClick.AddListener(() => OnButtonPressed(index));
+            btn.onClick.AddListener(() => CheckAnswer(btn));
         }
-
-        // Initially hide all labels
-        foreach (var label in labels)
-            label.SetActive(false);
     }
 
-    void OnButtonPressed(int index)
+    void CheckAnswer(Button clickedButton)
     {
-        // If the clicked button is already active, toggle off
-        if (activeIndex == index)
+        if (clickedButton == buttons[correctIndex])
         {
-            labels[index].SetActive(false);
-            activeIndex = -1;
-            return;
+            clickedButton.image.color = Color.green; // Correct choice
+            Debug.Log("Correct choice!");
         }
-
-        // Hide previously active label
-        if (activeIndex != -1)
+        else
         {
-            labels[activeIndex].SetActive(false);
+            clickedButton.image.color = Color.red; // Wrong choice
+            Debug.Log("Wrong choice, try again!");
         }
-
-        // Show the label for the newly clicked button
-        labels[index].SetActive(true);
-        activeIndex = index;
     }
 }

@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2068754323598429333
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6561596849020270071}
+  - component: {fileID: 8115664356605463774}
+  m_Layer: 0
+  m_Name: YarnCommands
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6561596849020270071
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2068754323598429333}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.1368546, y: 0.5382775, z: 6.1670437}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8115664356605463774
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2068754323598429333}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8601af38a2999cd43a181db3847d1086, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogueRunner: {fileID: 0}
+  FrontalLobe: {fileID: 1839069521128895974, guid: 3e296f51aa2b2cb4085c090730476964, type: 3}
+  PeritalLobe: {fileID: 3581112713459423896, guid: 35aaa1b0f1ef6be4da727600c28c0879, type: 3}
+  OccipitalLobe: {fileID: 7282065838565346049, guid: a24dce5bdd04d1a43ba0a6008a11f1be, type: 3}
+  PrefrontalLobe: {fileID: 4257620853925159114, guid: abe72757e21832e488bcacf3de68947d, type: 3}
+  TemporalLobe: {fileID: 1011169157285999540, guid: 5ff134e79928df844bec3446fad70782, type: 3}
+  BrainStem: {fileID: 5421959529027357891, guid: 33327ff5c50d9f54484cee734caced97, type: 3}
+  Cerebellum: {fileID: 7547144060677061550, guid: 79fb43b2c8806c04180f259f2b1bc3ac, type: 3}
+  Thalamus: {fileID: 2113190789315721493, guid: bf5247ef5a3a04e41828aa32e4754f03, type: 3}
+  right_brain_highlight: {fileID: 8397088281504626694, guid: 58c98014367a771438a2e8fffca10ab3, type: 3}
+  left_brain_highlight: {fileID: 1707751885114599860, guid: 16e94d1dfc8057c4ca4c67a0906cbcf2, type: 3}
+  Left_side_body_highlight: {fileID: 8245778874869302524, guid: 1521fe1cddc7c40438c3cece0635fba7, type: 3}
+  Right_side_body_highlight: {fileID: 5935930098742252182, guid: ff921463641ef86419b015d1747f685a, type: 3}
