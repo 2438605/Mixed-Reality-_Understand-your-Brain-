@@ -8,6 +8,12 @@ public class SpawnObjectManager: MonoBehaviour
 
     public GameObject[] uiButtonsForBrain;
 
+    public GameObject[] highlightObject;
+
+    public GameObject[] uiButtonsdeactivate;
+
+    public GameObject[] dehighlightObjects;
+
     public GameObject playerGameObject;
 
     public float turnSpeed = 10f;
@@ -28,6 +34,22 @@ public class SpawnObjectManager: MonoBehaviour
         {
             uiButtonsForBrain[i].SetActive(false);
             yarnCommands.uiButtonsForBrain[i] = uiButtonsForBrain[i];
+        }
+
+        for (int i = 0; i < highlightObject.Length; i++)
+        {
+            highlightObject[i].SetActive(false);
+            yarnCommands.highlightObject[i] = highlightObject[i];
+        }
+
+        for (int i = 0; i < yarnCommands.uiButtonsdeactivate.Length; i++)
+        {
+            yarnCommands.uiButtonsdeactivate[i].SetActive(false);
+        }
+
+        for (int i = 0; i < yarnCommands.dehighlightObjects.Length; i++)
+        {
+            yarnCommands.dehighlightObjects[i].SetActive(false);
         }
 
         playerGameObject = GameObject.FindWithTag("Player");

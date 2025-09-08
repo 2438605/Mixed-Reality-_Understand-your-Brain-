@@ -1,17 +1,12 @@
 ﻿title: MRBrianscript
 tags:
 ---
-
-
 Step inside an immerssive journey where the human brain comes alive in front of you.  #line:0d8c37f 
 Instead of flat images or heavy textbooks, you'll explore the brain lobes in a 3D, interactive space-almost as if you're holding knowledge in your hands. #line:0d67564 
 Here complex structures like the brain lobes are not just names-you'll see them, interact with them, and understand how they shape who we are.  #line:032dc5b 
-This isn't just a lecture, it's a guided exploration designed to make learning intuitive, memorable and engaging. #line:0d48508 
-Get ready to unlock the mistries of your brain-one lobe at a time.  #line:01cb307 
-
-
+//This isn't just a lecture, it's a guided exploration designed to make learning intuitive, memorable and engaging. #line:0d48508 
+//Get ready to unlock the mistries of your brain-one lobe at a time.  #line:01cb307 
 <<wait 2>>
-
 Look at your hands.  They are no longer holding pens or pencils.  #line:07799e7 
 Today, they are your learning tools.  #line:0d58942 
 With these virtual hands, you will explore the brain in a way textbooks never could. #line:034ce07 
@@ -24,22 +19,18 @@ These colors represent different brain regions you will learn about. The buttons
 You will see colored buttons on the sides.  #line:0c21169 
 Each button represents a brain lobe.  #line:09a67c4 
 Press any button to learn more about that lobe.  #line:0e15985 
-
 <<wait 1>>
-
-Remember; before starting with the inner structures, you must segregate the brain.  #line:0d3133c 
+//Remember; before starting with the inner structures, you must segregate the brain.  #line:0d3133c 
 //This will prepare you for deeper exploration. #line:081af96 
 //To segregate, pinch over a brain part.  #line:0526dc7 
 //Lift it and move it into the empty space beside you.  #line:0f9ca03 
 //Do the same with the other half.  #line:0ff6db1 
 //Watch as the brain separates, opening the way to discovery. #line:07e2ed5 
 Follow the audio guide. Take your time.  #line:016e426 
-Interact at your own pace. Let your hands guide you through the wonders of the human brain.  #line:0666da1 
-Every step brings you closer to understanding yourself. #line:0fd6365 
-Let's begin our journey into the brain! #line:0343bd8
-
+//Interact at your own pace. Let your hands guide you through the wonders of the human brain.  #line:0666da1 
+//Every step brings you closer to understanding yourself. #line:0fd6365 
+//Let's begin our journey into the brain! #line:0343bd8
 <<jump FrontalLobe>>
-
 ===
 
 title:FrontalLobe
@@ -52,6 +43,8 @@ When you speak, you can thank a special part here called Broca’s area for help
 And, perhaps most importantly, the frontal lobe plays a big role in shaping your emotions, personality, and social behavior. #line:0a5040d 
 Fun Fact , damage to this can completely change how a person acts or reacts to things. #line:06a3455 
 You may press the button with the matching color to see the name of this lobe.  #line:09f401b 
+
+//<<deFrontalLobe YarnCommands>>
 <<jump ParietalLobe>>
 ===
 title: ParietalLobe
@@ -66,7 +59,7 @@ It also helps you understand where your body is in space, so you can touch your 
 
 
 Lets keeps going to the next lobe! #line:0f30b18 
-
+//<<dePeritalLobe YarnCommands>>
 <<jump temporallobe>>
 
 
@@ -81,6 +74,7 @@ The green structure on the left side is the "temporal lobe" is like your brain's
 
 It's also where you recognize faces and understand what people are saying. #line:075827f 
 
+//<<deTemporalLobe YarnCommands>>
 <<jump occipitallobe >>
 
 
@@ -97,6 +91,7 @@ When you look at a beautiful sunset or read a book, it’s the occipital lobe th
 
 It’s also where your brain puts together all the visual information it gets from your eyes, so you can see the world clearly. #line:0274d95 
 
+//<<deOccipitalLobe YarnCommands>>
 <<jump prefrontal>>
 
 
@@ -118,6 +113,7 @@ It even shapes your social behavior and personality, guiding how you interact wi
 
 Fun fact, this part of the brian isnt fully development until your mid twenties, which is why teenagers sometimes make impulsive decisions. #line:0432e92 
 
+//<<dePrefrontalLobe YarnCommands>>
 <<jump internal >>
 
 
@@ -134,7 +130,6 @@ If you have still not seperated the lobes, pinch over them and seperate it. Real
 Once you’ve opened up the brain, press the buttons to discover each part. #line:0eb4d97 
 
 Lets start with Cerebellum. #line:0a212de 
-
 <<jump cerebellum>>
 
 
@@ -150,7 +145,7 @@ It’s also responsible for fine motor skills, like writing or playing an instru
 Without it, walking or even holding a cup steady would be tough! #line:0773ac5 
 
 Lets move on to the next part, the brainstem. #line:08905e7 
-
+//<<deCerebellum YarnCommands>>
 <<jump brainstem>>
 
 
@@ -169,6 +164,7 @@ The brainstem is like the brain's autopilot. It controls all the automatic funct
 It’s also responsible for basic reflexes, like blinking when something comes close to your eyes or pulling your hand away from something hot. #line:0769a00 
 
 lets jump over to the thalamus. #line:0c3affc 
+//<<deBrainStem YarnCommands>>
 
 <<jump thalamus>>
 
@@ -185,7 +181,7 @@ Here’s the thalamus and the surrounding midbrain structures, the central bulge
 Think of it as the brain’s relay station — it channels sensory information to the cerebral cortex so you can make sense of the world. It’s like a traffic cop, directing signals from your senses to the right parts of the brain. #line:06c7b76 
 
 Hope you now have a better understanding of the brain's  structures! Let's wrap up our journey through the brain. #line:0d5e79a
-
+//<<deThalamus YarnCommands>>
 <<jump buttons>>
 
 
@@ -254,13 +250,11 @@ Let's start with the right brain often referred to as right hemisphere. #line:07
 <<RightBrainHighlight YarnCommands>>
 
 The right brain is known as the “creative brain”, linked to art, music, and imagination. #line:040178a 
-
-<<RightSideBodyHighlight YarnCommands>>
-
+<<deRightBrainHighlight YarnCommands>>
 It controls the left side of your body – so if you’re left-handed, your right brain is working extra hard. #line:0da6532 
-
+<<RightSideBodyHighlight YarnCommands>>
 The right brain loves patterns and spatial awareness – which is why you can recognize faces so quickly. #line:051026f 
-
+<<deRightSideBodyHighlight YarnCommands>>
 It processes things in a holistic, big-picture way – zooming out instead of zooming in. #line:05a94aa 
 
 The right brain is great at picking up emotions and tone in someone’s voice – your built-in “vibe detector". #line:0bf913d 
@@ -272,11 +266,22 @@ Now, let's move to the left brain, or left hemisphere. #line:0cc6eb9
 <<LeftBrainHighlight YarnCommands>>
 
 The left brain is often called the “analytical brain”, famous for logic, numbers, and reasoning. #line:0d721a3 
-
+<<deLeftBrainHighlight YarnCommands>>
 It controls the right side of your body – so when you write with your right hand, thank your left brain! #line:0e8772f 
-
+<<LeftSideBodyHighlight YarnCommands>>
 Language and grammar? That’s the left brain’s specialty – it’s like your inner grammar police. #line:0bba602 
-
+<<deLeftSideBodyHighlight YarnCommands>>
 It processes information in a linear, step-by-step way – like following a recipe. #line:0a6f3d5 
 
+<<jump Game>>
+===
+title:Game
+tags:
+---
+
+Now that you have learned about the brain lobes and its internal structures, let's test your knowledge with a fun quiz! #line:0b1f3e1
+<<Start  YarnCommands>>
+Hit the start button to begin. Follow the question , then drag the pin to correct brain lobe. #line:0c6e3f4
+You might take help from the revision buttons above. Once done, press the "Next" button to proceed to the next question. #line:0a3e1f6
+Good luck! #line:0d1c4b8
 ===
