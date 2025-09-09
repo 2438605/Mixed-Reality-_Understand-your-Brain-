@@ -26,10 +26,14 @@ public class YarnCommands : MonoBehaviour
     public GameObject[] highlightObject;
     public GameObject[] dehighlightObjects;
 
-
+    public GameObject deRightBrainHighlight;
+    public GameObject deLeftSideBodyHighlight;
+    public GameObject deLeftBrainHighlight;
+    public GameObject deRightSideBodyHighlight;
+    
     public GameObject right_brain_highlight;
+    public GameObject LeftSideBodyHighlight;
     public GameObject left_brain_highlight;
-    public GameObject Left_side_body_highlight;
     public GameObject Right_side_body_highlight; // GameObjects to be activated or deactivated
 
     //public YarnCommands yarnCommands; // Reference to the YarnCommands script
@@ -45,11 +49,21 @@ public class YarnCommands : MonoBehaviour
         BrainStem = GameObject.Find("Brain Stem");
         Cerebellum = GameObject.Find("Cerebellum");
         Thalamus = GameObject.Find("Thalamus");
+        //Game start button
         start = GameObject.Find("Start");
+        //highlight GameObjects
         right_brain_highlight = GameObject.Find("Right Brain Highlight");
         left_brain_highlight = GameObject.Find("Left Brain Highlight");
-        Left_side_body_highlight = GameObject.Find("Left Side Body Highlight");
+        LeftSideBodyHighlight = GameObject.Find("Left Side Body Highlight");
         Right_side_body_highlight = GameObject.Find("Right Side Body Highlight");
+        //deactivate GameObjects
+        deLeftBrainHighlight = GameObject.Find("deLeftBrainHighlight");
+        deRightBrainHighlight = GameObject.Find("deRightBrainHighlight");
+        deLeftSideBodyHighlight = GameObject.Find("deLeftSideBodyHighlight");
+        deRightSideBodyHighlight = GameObject.Find("deRightSideBodyHighlight");
+
+
+
     }
 
 
@@ -59,11 +73,11 @@ public class YarnCommands : MonoBehaviour
         uiButtonsForBrain[0].SetActive(true);
     }
 
-    [YarnCommand("FrontalLobe")]// Activate the Parietal Lobe GameObject
-    public void deactiveFrontallobe()
-    {
-        uiButtonsdeactivate[0].SetActive(false);
-    }
+    //[YarnCommand("FrontalLobe")]// Activate the Parietal Lobe GameObject
+    //public void deactiveFrontallobe()
+    //{
+    //    uiButtonsdeactivate[0].SetActive(false);
+    //}
 
     [YarnCommand("PeritalLobe")]// Activate the Parietal Lobe GameObject
     public void SetPeritalLobe()
@@ -71,11 +85,11 @@ public class YarnCommands : MonoBehaviour
         uiButtonsForBrain[1].SetActive(true);
     }
 
-    [YarnCommand("dePeritalLobe")]// Activate the Parietal Lobe GameObject
-    public void deactivePeritalLobe()
-    {
-        uiButtonsdeactivate[1].SetActive(false);
-    }
+    //[YarnCommand("dePeritalLobe")]// Activate the Parietal Lobe GameObject
+    //public void deactivePeritalLobe()
+    //{
+    //    uiButtonsdeactivate[1].SetActive(false);
+    //}
 
     [YarnCommand("OccipitalLobe")]// Activate the Occipital Lobe GameObject
     public void SetOccipitalLobe()
@@ -83,11 +97,11 @@ public class YarnCommands : MonoBehaviour
         uiButtonsForBrain[2].SetActive(true);
     }
 
-    [YarnCommand("deOccipitalLobe")]// Activate the Occipital Lobe GameObject
-    public void deactivateOccipitalLobe()
-    {
-        uiButtonsdeactivate[2].SetActive(false);
-    }
+    //[YarnCommand("deOccipitalLobe")]// Activate the Occipital Lobe GameObject
+    //public void deactivateOccipitalLobe()
+    //{
+    //    uiButtonsdeactivate[2].SetActive(false);
+    //}
 
     [YarnCommand("PrefrontalLobe")]//   Activate the Prefrontal Lobe GameObject
     public void SetPrefrontalLobe()
@@ -95,11 +109,11 @@ public class YarnCommands : MonoBehaviour
         uiButtonsForBrain[3].SetActive(true);
     }
 
-    [YarnCommand("dePrefrontalLobe")]//   Activate the Prefrontal Lobe GameObject
-    public void deactivePrefrontalLobe()
-    {
-        uiButtonsdeactivate[3].SetActive(false);
-    }
+    //[YarnCommand("dePrefrontalLobe")]//   Activate the Prefrontal Lobe GameObject
+    //public void deactivePrefrontalLobe()
+    //{
+    //    uiButtonsdeactivate[3].SetActive(false);
+    //}
 
     [YarnCommand("TemporalLobe")]// Activate the Temporal Lobe GameObject
     public void SetTemporalLobe()
@@ -107,11 +121,11 @@ public class YarnCommands : MonoBehaviour
         uiButtonsForBrain[4].SetActive(true);
     }
 
-    [YarnCommand("deTemporalLobe")]// Activate the Temporal Lobe GameObject
-    public void deactivateTemporalLobe()
-    {
-        uiButtonsdeactivate[4].SetActive(false);
-    }
+    //[YarnCommand("deTemporalLobe")]// Activate the Temporal Lobe GameObject
+    //public void deactivateTemporalLobe()
+    //{
+    //    uiButtonsdeactivate[4].SetActive(false);
+    //}
 
 
     [YarnCommand("BrainStem")]      // Activate the Brain Stem GameObject
@@ -120,11 +134,11 @@ public class YarnCommands : MonoBehaviour
         uiButtonsForBrain[5].SetActive(true);
     }
 
-    [YarnCommand("deBrainStem")]      // Activate the Brain Stem GameObject
-    public void deactivateBrainStem()
-    {
-        uiButtonsdeactivate[5].SetActive(false);
-    }
+    //[YarnCommand("deBrainStem")]      // Activate the Brain Stem GameObject
+    //public void deactivateBrainStem()
+    //{
+    //    uiButtonsdeactivate[5].SetActive(false);
+    //}
 
     [YarnCommand("Cerebellum")]     // Activate the Cerebellum GameObject
     public void SetCerebellum()
@@ -132,11 +146,11 @@ public class YarnCommands : MonoBehaviour
         uiButtonsForBrain[6].SetActive(true);
     }
 
-    [YarnCommand("deCerebellum")]     // Activate the Cerebellum GameObject
-    public void deactivateCerebellum()
-    {
-        uiButtonsdeactivate[6].SetActive(false);
-    }
+    //[YarnCommand("deCerebellum")]     // Activate the Cerebellum GameObject
+    //public void deactivateCerebellum()
+    //{
+    //    uiButtonsdeactivate[6].SetActive(false);
+    //}
 
     [YarnCommand("Thalamus")]    // Activate the Thalamus GameObject
     public void SetThalamus()
@@ -144,11 +158,11 @@ public class YarnCommands : MonoBehaviour
         uiButtonsForBrain[7].SetActive(true);
     }
 
-    [YarnCommand("deThalamus")]    // Activate the Thalamus GameObject
-    public void deactivateThalamus()
-    {
-        uiButtonsdeactivate[7].SetActive(false);
-    }
+    //[YarnCommand("deThalamus")]    // Activate the Thalamus GameObject
+    //public void deactivateThalamus()
+    //{
+    //    uiButtonsdeactivate[7].SetActive(false);
+    //}
 
     [YarnCommand("Start")]    // Activate the Start GameObject
     public void SetStart()
@@ -165,19 +179,7 @@ public class YarnCommands : MonoBehaviour
     [YarnCommand("deRightBrainHighlight")]
     public void deHighlightRightBrain()
     {
-        dehighlightObjects[0].SetActive(false);
-    }
-
-    [YarnCommand("LeftBrainHighlight")]    // Activate the Left Brain Highlight GameObject
-    public void SetLeftBrainHighlight()
-    {
-        highlightObject[1].SetActive(true);
-    }
-
-    [YarnCommand("deLeftBrainHighlight")]    // Activate the Left Brain Highlight GameObject
-    public void SetdeLeftBrainHighlight()
-    {
-        dehighlightObjects[1].SetActive(false);
+        dehighlightObjects[0].SetActive(true);
     }
 
     [YarnCommand("LeftSideBodyHighlight")]    // Activate the Left Side Body Highlight GameObject
@@ -189,8 +191,21 @@ public class YarnCommands : MonoBehaviour
     [YarnCommand("deLeftSideBodyHighlight")]    // Activate the Left Side Body Highlight GameObject
     public void SetdeLeftSideBodyHighlight()
     {
-        dehighlightObjects[2].SetActive(false);
+        dehighlightObjects[2].SetActive(true);
     }
+
+    [YarnCommand("LeftBrainHighlight")]    // Activate the Left Brain Highlight GameObject
+    public void SetLeftBrainHighlight()
+    {
+        highlightObject[1].SetActive(true);
+    }
+
+    [YarnCommand("deLeftBrainHighlight")]    // Activate the Left Brain Highlight GameObject
+    public void SetdeLeftBrainHighlight()
+    {
+        dehighlightObjects[1].SetActive(true);
+    }
+
 
     [YarnCommand("RightSideBodyHighlight")]    // Activate the Right Side Body Highlight GameObject
     public void SetRightSideBodyHighlight()
@@ -201,7 +216,7 @@ public class YarnCommands : MonoBehaviour
     [YarnCommand("deRightSideBodyHighlight")]    // Activate the Right Side Body Highlight GameObject
     public void SetdeRightSideBodyHighlight()
     {
-        dehighlightObjects[3].SetActive(false);
+        dehighlightObjects[3].SetActive(true);
     }
 
 }

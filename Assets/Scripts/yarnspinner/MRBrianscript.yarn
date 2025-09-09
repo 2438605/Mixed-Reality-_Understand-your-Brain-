@@ -1,6 +1,7 @@
 ﻿title: MRBrianscript
 tags:
 ---
+<<jump FunFacts>>
 Step inside an immerssive journey where the human brain comes alive in front of you.  #line:0d8c37f 
 Look at your hands.  They are no longer holding pens or pencils.  #line:07799e7 
 Today, they are your learning tools.  #line:0d58942 
@@ -191,38 +192,36 @@ tags:
 
 You have now completed your immersive walkthrough of the brain.  #line:0ae4601 
 
-But remember, learning never stops here.   #line:0e62381 
+//But remember, learning never stops here.   #line:0e62381 
 
 The colored buttons on the sides are always available to you.   #line:0e97300 
-
 Use them to revisit each brain lobe, its location, and its function.   #line:047a2e7 
-
 This way, if you have missed something, you can go back, revise, and strengthen your understanding.   #line:04f2e08 
 
-Take your time.   #line:0aa8020 
+//Take your time.   #line:0aa8020 
 
-Explore again if you wish.   #line:0a4b0c1 
+//Explore again if you wish.   #line:0a4b0c1 
 
-Each interaction brings you closer to mastering the knowledge of the human brain.   #line:02c2bd3 
-
-<<jump End>>
-===
-
-title: End
-tags:
----
-
-Here you see the human head, with the brain separated into different lobes. #line:05f4a53 
-
-Each colored part represents a specific region of the brain, now ready for you to explore. #line:0960113 
-
-Pinch and select any lobe to hear about its funfact. #line:0349c8f 
-
-Take your time—each interaction will give you a closer look into how these lobes shape our thoughts, senses, and actions." #line:06ec614 
+//Each interaction brings you closer to mastering the knowledge of the human brain.   #line:02c2bd3 
 
 <<jump open_brain>>
-
 ===
+
+//title: End
+//tags:
+//---
+
+//Here you see the human head, with the brain separated into different lobes. #line:05f4a53 
+
+//Each colored part represents a specific region of the brain, now ready for you to explore. #line:0960113 
+
+//Pinch and select any lobe to hear about its funfact. #line:0349c8f 
+
+//Take your time—each interaction will give you a closer look into how these lobes shape our thoughts, senses, and actions." #line:06ec614 
+
+//<<jump open_brain>>
+
+//===
 
 title:open_brain
 tags:
@@ -248,11 +247,11 @@ Let's start with the right brain often referred to as right hemisphere. #line:07
 <<RightBrainHighlight YarnCommands>>
 
 The right brain is known as the “creative brain”, linked to art, music, and imagination. #line:040178a 
-<<deRightBrainHighlight YarnCommands>>
+//<<deRightBrainHighlight YarnCommands>>
 It controls the left side of your body – so if you’re left-handed, your right brain is working extra hard. #line:0da6532 
-<<RightSideBodyHighlight YarnCommands>>
+//<<LeftSideBodyHighlight YarnCommands>>
 The right brain loves patterns and spatial awareness – which is why you can recognize faces so quickly. #line:051026f 
-<<deRightSideBodyHighlight YarnCommands>>
+//<<deLeftSideBodyHighlight YarnCommands>>
 It processes things in a holistic, big-picture way – zooming out instead of zooming in. #line:05a94aa 
 
 The right brain is great at picking up emotions and tone in someone’s voice – your built-in “vibe detector". #line:0bf913d 
@@ -264,11 +263,11 @@ Now, let's move to the left brain, or left hemisphere. #line:0cc6eb9
 <<LeftBrainHighlight YarnCommands>>
 
 The left brain is often called the “analytical brain”, famous for logic, numbers, and reasoning. #line:0d721a3 
-<<deLeftBrainHighlight YarnCommands>>
+//<<deLeftBrainHighlight YarnCommands>>
 It controls the right side of your body – so when you write with your right hand, thank your left brain! #line:0e8772f 
-<<LeftSideBodyHighlight YarnCommands>>
+//<<LeftSideBodyHighlight YarnCommands>>
 Language and grammar? That’s the left brain’s specialty – it’s like your inner grammar police. #line:0bba602 
-<<deLeftSideBodyHighlight YarnCommands>>
+
 It processes information in a linear, step-by-step way – like following a recipe. #line:0a6f3d5 
 
 <<jump Game>>

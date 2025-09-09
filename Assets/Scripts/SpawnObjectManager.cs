@@ -10,7 +10,7 @@ public class SpawnObjectManager: MonoBehaviour
 
     public GameObject[] highlightObject;
 
-    public GameObject[] uiButtonsdeactivate;
+   // public GameObject[] uiButtonsdeactivate;
 
     public GameObject[] dehighlightObjects;
 
@@ -42,14 +42,15 @@ public class SpawnObjectManager: MonoBehaviour
             yarnCommands.highlightObject[i] = highlightObject[i];
         }
 
-        for (int i = 0; i < yarnCommands.uiButtonsdeactivate.Length; i++)
-        {
-            yarnCommands.uiButtonsdeactivate[i].SetActive(false);
-        }
+        //for (int i = 0; i < yarnCommands.uiButtonsdeactivate.Length; i++)
+        //{
+        //    yarnCommands.uiButtonsdeactivate[i].SetActive(false);
+        //}
 
         for (int i = 0; i < yarnCommands.dehighlightObjects.Length; i++)
         {
-            yarnCommands.dehighlightObjects[i].SetActive(false);
+            dehighlightObjects[i].SetActive(false);
+            yarnCommands.dehighlightObjects[i]= dehighlightObjects[i];
         }
 
         playerGameObject = GameObject.FindWithTag("Player");
