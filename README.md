@@ -5,16 +5,11 @@ This is a mixed reality application developed to support the research question "
 <table align="center">
     <tr>
         <td style="padding: 10px; text-align: center;">
-            <img src="cyber ss.png" alt=" Development 1" width="400" style="margin: 20px;" />
+            <img src="Screenshot 2025-09-09 164010.png" alt="BrainSpace MR " width="400" style="margin: 20px;" />
             <br />
-            FESTO MACHINES 
+            WELCOME TO RESEARCH APPLICATION FOR MIXED REALITY NEUROANAOTMY APPLICATION 
         </td>
-        <td style="padding: 10px; text-align: center;">
-            <img src="carriers.png" alt="development 2" width="400" style="margin: 20px;" />
-            <br />
-           SYSTEM  
-        </td>
-    </tr>
+        
     
 </table>
 
