@@ -8,6 +8,7 @@
         </td>
     </tr>
 </table>
+---
 # 📔 Research question: How effective is mixed reality in medical education when compared to traditional education.
 
 This is a research project developed for the dissertation of my postgraduation in Virtual reality development under swansea university, Wales, UK amd focuses on proving that immerssive education like mixed reality can be useful for medical education comparing to the traditional education. In the application you will be able to view the human brain and its internals along with an immersive audio lecture. You can interacte with the brain lobes and the internals of the brain to learn more about them. The application ends with a small quiz based on the knowledge you have gained. 
@@ -59,7 +60,7 @@ This is a research project developed for the dissertation of my postgraduation i
 
 Watch a preview of the experience:  
 
-[![Watch the Video]([https://youtu.be/your_video_link)  
+[![Watch the Video]([https://youtu.be/your_video_link](https://youtu.be/BQUl5gpREew?si=DJBE6mkcge331VYL))  
 
 *Description of the video: A walkthrough showcasing the immersive VR scenes, sign language interactions, and emotional storytelling.*  
 
